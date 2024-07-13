@@ -19,5 +19,5 @@ services:
       - mongodb
       - catalogue
     ports:
-      -80:80
+      - "80:80"
   
