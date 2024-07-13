@@ -20,4 +20,13 @@ services:
       - catalogue
     ports:
       - "80:80"
+  redis:
+    image: redis
+    container_name: redis
+  user:
+    image: user:v1
+    container_name: user
+  cart:
+    image: cart:v1
+    container_name: cart
   
